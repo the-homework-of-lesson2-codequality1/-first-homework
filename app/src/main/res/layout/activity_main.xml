@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="面积计算"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+   <Button
+    android:id="@+id/btn_rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="长方形"
+    android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正方形"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆形"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_triangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三角形"
+        android:textSize="20sp"/>
+
+</LinearLayout>
